@@ -1,7 +1,8 @@
 {
+  "name": "umi-qiankun-sub1",
   "private": true,
   "scripts": {
-    "dev": "umi dev",
+    "dev": "PORT=8010 umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "start": "npm run dev"
